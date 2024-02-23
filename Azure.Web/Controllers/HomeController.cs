@@ -10,6 +10,7 @@ public class HomeController : Controller
 
     public HomeController(ILogger<HomeController> logger)
     {
+        // home controller
         _logger = logger;
     }
 
